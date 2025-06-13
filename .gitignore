@@ -1,0 +1,36 @@
+# Python virtual environments
+venv/
+.env/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large data files
+*.h5
+*.hdf5
+*.tif
+*.tiff
+*.zip
+*.tar
+*.tar.gz
+*.csv
+*.db
+*.sqlite
+*.parquet
+
+# Earth Engine auth files (if any)
+.credentials/
