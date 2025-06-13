@@ -1,0 +1,11 @@
+tensorflow
+keras
+earthengine-api
+geemap
+scikit-learn
+matplotlib
+opencv-python
+numpy
+folium
+leafmap
+plotly
