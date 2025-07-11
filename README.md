@@ -1,4 +1,4 @@
-# Satellite Change Detection
+# Multitemporal Satellite Change Detection
 
 A deep learning project for multitemporal satellite change detection using computer vision techniques and GPU acceleration.
 
@@ -28,7 +28,7 @@ This project implements satellite image analysis algorithms to detect changes be
 ## Repository Structure
 
 ```
-Satellite-Change-Detection/
+Multitemporal-Satellite-Change-Detection/
 ├── multitemporal-satellite-change-detection.ipynb  # Main notebook implementation
 ├── README.md                                       # Project documentation
 └── LICENSE                                         # Apache 2.0 License
@@ -58,8 +58,8 @@ Satellite-Change-Detection/
 ### Option 2: Local Setup
 1. Clone the repository:
 ```bash
-git clone https://github.com/saverin0/Satellite-Change-Detection.git
-cd Satellite-Change-Detection
+git clone https://github.com/saverin0/Multitemporal-Satellite-Change-Detection.git
+cd Multitemporal-Satellite-Change-Detection
 ```
 
 2. Ensure CUDA and GPU drivers are properly installed
@@ -104,10 +104,10 @@ Contributions are welcome! Please feel free to submit a Pull Request or open an 
 
 If you use this work in your research, please cite:
 ```
-Satellite Change Detection - Multitemporal Analysis
-Author: Saverino, kshitij2602
+Multitemporal Satellite Change Detection
+Author: Saverino, kshitij2602 (https://github.com/kshitij2602)
 Kaggle: https://www.kaggle.com/code/saverino/multitemporal-satellite-change-detection
-GitHub: https://github.com/saverin0/Satellite-Change-Detection
+GitHub: https://github.com/saverin0/Multitemporal-Satellite-Change-Detection
 ```
 
 ---
