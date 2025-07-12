@@ -18,7 +18,7 @@ You can directly run the code on Kaggle for the best experience:
 ### Dataset Links
 
 - [LEVIR-CD Change Detection Dataset](https://www.kaggle.com/datasets/mdrifaturrahman33/levir-cd)
-- [Project Notebook (for code and sample data)](https://www.kaggle.com/code/saverino/multitemporal-satellite-change-detection)
+- [OSCD-MSI (Multispectral)](https://www.kaggle.com/datasets/saverino/oscd-msi)
 - [Sample Flowchart Images](https://www.kaggle.com/datasets/saverino/flow-chart-image)
 
 > The code and datasets are also uploaded within this repository in case there are issues accessing Kaggle directly.
