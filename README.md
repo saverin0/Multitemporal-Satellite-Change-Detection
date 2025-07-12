@@ -8,13 +8,28 @@ This project implements satellite image analysis algorithms to detect changes be
 
 🔗 **[View the complete implementation on Kaggle](https://www.kaggle.com/code/saverino/multitemporal-satellite-change-detection)**
 
+## Quick Start
+
+You can directly run the code on Kaggle for the best experience:
+
+- **Notebook link**: [Kaggle Notebook](https://www.kaggle.com/code/saverino/multitemporal-satellite-change-detection)
+- **Hardware**: Go to *Settings → Accelerator* and select **GPU T4 x2** for GPU-accelerated computation.
+
+### Dataset Links
+
+- [LEVIR-CD Change Detection Dataset](https://www.kaggle.com/datasets/mdrifaturrahman33/levir-cd)
+- [Project Notebook (for code and sample data)](https://www.kaggle.com/code/saverino/multitemporal-satellite-change-detection)
+- [Sample Flowchart Images](https://www.kaggle.com/datasets/saverino/flow-chart-image)
+
+> The code and datasets are also uploaded within this repository in case there are issues accessing Kaggle directly.
+
 ## Features
 
-- **Multitemporal Analysis**: Compare satellite images across different time periods
-- **Deep Learning Models**: GPU-accelerated neural networks for change detection
-- **Image Processing**: Advanced preprocessing techniques for satellite imagery
-- **Change Visualization**: Visual representation of detected changes
-- **Performance Optimization**: GPU-optimized implementations for faster processing
+- **Multitemporal Analysis**: Compare satellite images across different time periods.
+- **Deep Learning Models**: GPU-accelerated neural networks for change detection.
+- **Image Processing**: Advanced preprocessing techniques for satellite imagery.
+- **Change Visualization**: Visual representation of detected changes.
+- **Performance Optimization**: GPU-optimized implementations for faster processing.
 
 ## Technology Stack
 
@@ -52,22 +67,20 @@ Multitemporal-Satellite-Change-Detection/
 ### Option 1: Run on Kaggle (Recommended)
 1. Visit the [Kaggle notebook](https://www.kaggle.com/code/saverino/multitemporal-satellite-change-detection)
 2. Fork the notebook to your Kaggle account
-3. Enable GPU acceleration in Kaggle settings
+3. Enable GPU acceleration in Kaggle settings (GPU T4 x2)
 4. Run all cells
 
 ### Option 2: Local Setup
 1. Clone the repository:
-```bash
-git clone https://github.com/saverin0/Multitemporal-Satellite-Change-Detection.git
-cd Multitemporal-Satellite-Change-Detection
-```
-
+    ```bash
+    git clone https://github.com/saverin0/Multitemporal-Satellite-Change-Detection.git
+    cd Multitemporal-Satellite-Change-Detection
+    ```
 2. Ensure CUDA and GPU drivers are properly installed
-
 3. Open the notebook:
-```bash
-jupyter notebook multitemporal-satellite-change-detection.ipynb
-```
+    ```bash
+    jupyter notebook multitemporal-satellite-change-detection.ipynb
+    ```
 
 ## Usage
 
@@ -92,6 +105,17 @@ The notebook provides a complete pipeline for:
 - **Agriculture**: Monitor crop changes and agricultural patterns
 - **Climate Research**: Study long-term environmental changes
 
+## References
+
+- Urban Change Detection for Multispectral Earth Observation Using Convolutional Neural Networks, R. Caye Daudt, B. Le Saux, A. Boulch, Y. Gousseau.  
+  IEEE International Geoscience and Remote Sensing Symposium (IGARSS’2018), Valencia, Spain, July 2018.  
+  [OSCD ONERA Satellite Change Detection Dataset](https://ieee-dataport.org/open-access/oscd-onera-satellite-change-detection)
+
+- Multitemporal Satellite Change Detection  
+  Author: Saverino, kshitij2602  
+  Kaggle: https://www.kaggle.com/code/saverino/multitemporal-satellite-change-detection  
+  GitHub: https://github.com/saverin0/Multitemporal-Satellite-Change-Detection
+
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
@@ -99,16 +123,6 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request or open an issue for discussions.
-
-## Citation
-
-If you use this work in your research, please cite:
-```
-Multitemporal Satellite Change Detection
-Author: Saverino, kshitij2602 (https://github.com/kshitij2602)
-Kaggle: https://www.kaggle.com/code/saverino/multitemporal-satellite-change-detection
-GitHub: https://github.com/saverin0/Multitemporal-Satellite-Change-Detection
-```
 
 ---
 
