@@ -1,10 +1,10 @@
 # Multitemporal Satellite Change Detection
 
-A deep learning project for multitemporal satellite change detection using computer vision techniques and GPU acceleration.
+A deep learning project for multitemporal satellite change detection using computer vision and deep learning models, including U-Net and Random Forest, with GPU acceleration.
 
 ## Overview
 
-This project implements satellite image analysis algorithms to detect changes between satellite images taken at different times. The implementation focuses on identifying various types of changes such as urban development, deforestation, natural disasters, and other environmental modifications using deep learning approaches.
+This project implements satellite image analysis algorithms to detect changes between satellite images taken at different times. The implementation focuses on identifying various types of changes such as urban development, deforestation, natural disasters, and other environmental modifications using deep learning and classical machine learning approaches.
 
 🔗 **[View the complete implementation on Kaggle](https://www.kaggle.com/code/saverino/multitemporal-satellite-change-detection)**
 
@@ -26,10 +26,11 @@ You can directly run the code on Kaggle for the best experience:
 ## Features
 
 - **Multitemporal Analysis**: Compare satellite images across different time periods.
-- **Deep Learning Models**: GPU-accelerated neural networks for change detection.
+- **Deep Learning Models**: U-Net architecture for semantic segmentation and change detection.
+- **Machine Learning Models**: Random Forest classifier as an alternative approach.
 - **Image Processing**: Advanced preprocessing techniques for satellite imagery.
 - **Change Visualization**: Visual representation of detected changes.
-- **Performance Optimization**: GPU-optimized implementations for faster processing.
+- **Performance Optimization**: GPU-accelerated implementations for faster processing.
 
 ## Technology Stack
 
@@ -37,7 +38,8 @@ You can directly run the code on Kaggle for the best experience:
 - **Jupyter Notebook**: Interactive development environment
 - **GPU Computing**: CUDA-enabled deep learning frameworks
 - **Computer Vision Libraries**: OpenCV, PIL for image processing
-- **Deep Learning**: TensorFlow/PyTorch with GPU acceleration
+- **Deep Learning**: TensorFlow/Keras, PyTorch (U-Net)
+- **Machine Learning**: scikit-learn (Random Forest)
 - **Geospatial Libraries**: For handling satellite imagery data
 
 ## Repository Structure
@@ -86,16 +88,18 @@ Multitemporal-Satellite-Change-Detection/
 
 The notebook provides a complete pipeline for:
 1. **Data Loading**: Import and preprocess satellite image pairs
-2. **Model Architecture**: Define deep learning models optimized for change detection
-3. **Training**: GPU-accelerated model training
-4. **Inference**: Apply trained models to detect changes
-5. **Visualization**: Display results with change maps and statistics
+2. **Model Architectures**:
+    - **U-Net**: A convolutional neural network architecture for semantic segmentation and pixel-wise change detection. U-Net is particularly effective for identifying precise regions of change.
+    - **Random Forest**: A classical machine learning model used as a baseline or alternative for change detection using feature extraction from image pairs.
+3. **Training**: GPU-accelerated model training for deep learning models; efficient CPU training for Random Forest.
+4. **Inference**: Apply trained models to detect and classify changes.
+5. **Visualization**: Display results with change maps and statistics for analysis.
 
 ## Performance Notes
 
-- **GPU Acceleration**: The implementation is optimized for GPU computing
-- **Memory Management**: Efficient handling of large satellite imagery datasets
-- **Batch Processing**: Support for processing multiple image pairs
+- **GPU Acceleration**: The implementation is optimized for GPU computing (especially for U-Net model).
+- **Memory Management**: Efficient handling of large satellite imagery datasets.
+- **Batch Processing**: Support for processing multiple image pairs.
 
 ## Applications
 
@@ -126,4 +130,4 @@ Contributions are welcome! Please feel free to submit a Pull Request or open an 
 
 ---
 
-*This project demonstrates the application of deep learning and GPU computing for satellite imagery analysis and environmental monitoring.*
+*This project demonstrates the application of deep learning (U-Net), classical machine learning (Random Forest), and GPU computing for satellite imagery analysis and environmental monitoring.*
