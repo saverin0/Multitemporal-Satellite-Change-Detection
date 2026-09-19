@@ -21,7 +21,7 @@ You can directly run the code on Kaggle for the best experience:
 - [OSCD-MSI (Multispectral)](https://www.kaggle.com/datasets/saverino/oscd-msi)
 - [Sample Flowchart Images](https://www.kaggle.com/datasets/saverino/flow-chart-image)
 
-> The code and datasets are also uploaded within this repository in case there are issues accessing Kaggle directly.
+> The notebook (with its outputs) is also in this repository in case Kaggle is not reachable. The datasets are not; use the Kaggle links above.
 
 ## Features
 
@@ -38,7 +38,7 @@ You can directly run the code on Kaggle for the best experience:
 - **Jupyter Notebook**: Interactive development environment
 - **GPU Computing**: CUDA-enabled deep learning frameworks
 - **Computer Vision Libraries**: OpenCV, PIL for image processing
-- **Deep Learning**: TensorFlow/Keras, PyTorch (U-Net)
+- **Deep Learning**: PyTorch, segmentation-models-pytorch (Attention U-Net)
 - **Machine Learning**: scikit-learn (Random Forest)
 - **Geospatial Libraries**: For handling satellite imagery data
 
@@ -94,6 +94,12 @@ The notebook provides a complete pipeline for:
 3. **Training**: GPU-accelerated model training for deep learning models; efficient CPU training for Random Forest.
 4. **Inference**: Apply trained models to detect and classify changes.
 5. **Visualization**: Display results with change maps and statistics for analysis.
+
+## Results
+
+LEVIR-CD, images resized to 256x256, random 70/15/15 split (96 test pairs):
+Attention U-Net F1 0.590, IoU 0.418; Random Forest F1 0.318, IoU 0.189.
+On OSCD (Sentinel-2 RGB, 24 cities) the model is only applied; there are no labels scored.
 
 ## Performance Notes
 
