@@ -66,13 +66,13 @@ Multitemporal-Satellite-Change-Detection/
 
 ## Getting Started
 
-### Option 1: Run on Kaggle (Recommended)
+### Option 1 - Run on Kaggle (Recommended)
 1. Visit the [Kaggle notebook](https://www.kaggle.com/code/saverino/multitemporal-satellite-change-detection)
 2. Fork the notebook to your Kaggle account
 3. Enable GPU acceleration in Kaggle settings (GPU T4 x2)
 4. Run all cells
 
-### Option 2: Local Setup
+### Option 2 - Local Setup
 1. Clone the repository:
     ```bash
     git clone https://github.com/saverin0/Multitemporal-Satellite-Change-Detection.git
